@@ -24,12 +24,18 @@
   const vh = window.innerHeight;
   const vw = window.innerWidth;
 
+  // id e class sao escritos pela pagina analisada: dados nao confiaveis.
+  // Truncamos para limitar o tamanho de um comando plantado ai. O seletor
+  // funcional (selectorOf) nao e truncado, pois precisa continuar valido.
+  const CORTE_ID = 40;
+  const corta = (s) => (s && s.length > CORTE_ID ? s.slice(0, CORTE_ID) + '\u2026' : s);
+
   const desc = (el) => {
     if (!el || el.nodeType !== 1) return String(el);
-    const id = el.id ? '#' + el.id : '';
+    const id = el.id ? '#' + corta(el.id) : '';
     let cls = '';
     const cn = el.getAttribute('class');
-    if (cn) cls = '.' + cn.trim().split(/\s+/).slice(0, 3).join('.');
+    if (cn) cls = '.' + cn.trim().split(/\s+/).slice(0, 3).map(corta).join('.');
     return el.tagName.toLowerCase() + id + cls;
   };
 

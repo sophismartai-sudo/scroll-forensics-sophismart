@@ -40,10 +40,12 @@
       if (el === document.documentElement) return 'html';
       if (el === document.body) return 'body';
       if (el.nodeType === 1) {
-        const id = el.id ? '#' + el.id : '';
+        // id/class sao dados da pagina: trunca (ver sonda.js)
+        var corta = function (s) { return s && s.length > 40 ? s.slice(0, 40) + '\u2026' : s; };
+        const id = el.id ? '#' + corta(el.id) : '';
         let cls = '';
         const cn = el.getAttribute && el.getAttribute('class');
-        if (cn) cls = '.' + cn.trim().split(/\s+/).slice(0, 3).join('.');
+        if (cn) cls = '.' + cn.trim().split(/\s+/).slice(0, 3).map(corta).join('.');
         return el.tagName.toLowerCase() + id + cls;
       }
       return String(el);
