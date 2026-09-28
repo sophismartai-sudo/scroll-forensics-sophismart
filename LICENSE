@@ -1,0 +1,119 @@
+LICENÇA DE USO PÚBLICO, NÃO COMERCIAL E SEM DERIVAÇÕES
+scroll-forensics
+=========================================================================
+
+Copyright (c) 2026 Murilo Ferreira (@agro_muriloferreira) / Sophismart.ai
+(@sophismart.ai). Todos os direitos reservados, exceto os expressamente
+concedidos abaixo.
+
+Esta obra — o conjunto de arquivos, scripts, documentação e exemplos que
+compõem a ferramenta "scroll-forensics" — é disponibilizada gratuitamente ao
+público, em especial a designers, desenvolvedores e estudantes de web, como
+contribuição para o estudo legítimo de técnicas de movimento e interação, e
+para a construção de trabalho próprio a partir desse aprendizado.
+
+
+1. DEFINIÇÕES
+-------------------------------------------------------------------------
+"Obra": a ferramenta scroll-forensics em sua totalidade, incluindo código,
+documentação, exemplos e este arquivo de licença.
+"Titular": Murilo Ferreira / Sophismart.ai, autor e detentor dos direitos.
+"Cópia íntegra": reprodução exata e não modificada da Obra, com todos os
+avisos de autoria e licença preservados.
+
+
+2. O QUE VOCÊ PODE FAZER (concessões gratuitas)
+-------------------------------------------------------------------------
+a) USAR e EXECUTAR a Obra, para qualquer finalidade não comercial, por
+   pessoas físicas, instituições de ensino e órgãos públicos.
+b) REDISTRIBUIR e COMPARTILHAR a Obra publicamente, de forma gratuita, desde
+   que como CÓPIA ÍNTEGRA, mantendo intactos autoria, esta licença e todos os
+   avisos. Instalar, baixar e repassar a cópia íntegra a colegas é
+   expressamente permitido e incentivado.
+
+
+3. O QUE É EXPRESSAMENTE PROIBIDO
+-------------------------------------------------------------------------
+a) VENDER, licenciar mediante pagamento, cobrar por acesso, embutir em produto
+   ou serviço pago, ou de qualquer forma COMERCIALIZAR a Obra, no todo ou em
+   parte.
+b) MODIFICAR, adaptar, traduzir, refatorar ou criar OBRAS DERIVADAS a partir da
+   Obra, bem como distribuir qualquer versão alterada.
+c) REMOVER, ocultar ou alterar avisos de autoria, créditos ou esta licença.
+d) Apresentar a Obra, no todo ou em parte, como de autoria de terceiro, ou
+   sugerir patrocínio/endosso do Titular sem autorização.
+e) Copiar trechos para incorporá-los a outra obra em violação às alíneas acima.
+f) COPIAR ou REPLICAR o modo de ação, o método de funcionamento ou a metodologia
+   de análise da Obra, no todo ou em parte, para incorporá-los a outra obra,
+   produto ou serviço, ainda que reescritos.
+
+A cópia íntegra para fins de uso e distribuição pública gratuita (item 2) NÃO é
+vedada; a vedação recai sobre a cópia com finalidade comercial, a cópia alterada
+e a apropriação indevida.
+
+
+4. RESERVA DE DIREITOS E AUTORIZAÇÕES
+-------------------------------------------------------------------------
+Todos os direitos não expressamente concedidos permanecem reservados ao
+Titular. Usos fora desta licença — inclusive uso comercial ou criação de
+derivadas — dependem de AUTORIZAÇÃO PRÉVIA E EXPRESSA do Titular, solicitada
+pelos contatos indicados em AUTORIA.md.
+
+
+5. EMBASAMENTO JURÍDICO (Brasil)
+-------------------------------------------------------------------------
+Esta licença apoia-se, entre outros, em:
+- Constituição Federal, art. 5º, XXVII — direito exclusivo do autor de utilizar,
+  publicar e reproduzir suas obras.
+- Lei nº 9.610/1998 (Direitos Autorais): art. 22 (direitos morais e
+  patrimoniais); art. 24 (direitos morais — reivindicar a autoria e ter o nome
+  indicado); art. 29 (a utilização/reprodução depende de autorização prévia e
+  expressa do autor); art. 49 (o autor pode conceder direitos de forma total ou
+  parcial, definindo as condições).
+- Lei nº 9.609/1998 (Programa de Computador): art. 2º (o software é protegido
+  pelo regime das obras literárias/direitos autorais) e art. 2º, §1º (resguardam-
+  se ao autor, a qualquer tempo, o direito de reivindicar a paternidade e o de
+  opor-se a alterações não autorizadas que impliquem deformação, mutilação ou
+  modificação que prejudiquem sua honra ou reputação); art. 12 (é crime violar
+  direitos de autor de programa de computador, com pena agravada quando a
+  reprodução se dá para fins de comércio).
+
+O direito de opor-se a alterações não autorizadas (Lei 9.609/98, art. 2º, §1º) e
+o direito à indicação da autoria (Lei 9.610/98, art. 24) fundamentam,
+respectivamente, a vedação a modificações (item 3.b) e a exigência de crédito
+(item 2.b, 3.c).
+
+
+6. USO RESPONSÁVEL DE PÁGINAS DE TERCEIROS
+-------------------------------------------------------------------------
+A Obra foi construída para EXTRAIR MECANISMO E PARÂMETRO — técnica, números,
+sequência — e para produzir plano de reimplementação escrito do zero. Ela NÃO
+se destina a extrair, reproduzir ou redistribuir código-fonte, textos, imagens,
+vídeos, fontes, ícones, marcas ou qualquer conteúdo protegido de páginas
+analisadas, e verifica `robots.txt` antes de automatizar, não contornando login,
+paywall, captcha ou proteção anti-bot.
+
+O usuário é o único responsável por empregar a Obra em conformidade com a
+legislação aplicável e com os termos de uso dos sites que analisar. O Titular
+não autoriza nem endossa o uso da Obra para cópia de obra alheia.
+
+
+7. ISENÇÃO DE GARANTIAS E LIMITAÇÃO DE RESPONSABILIDADE
+-------------------------------------------------------------------------
+A OBRA É FORNECIDA "NO ESTADO EM QUE SE ENCONTRA" (AS IS), SEM GARANTIAS DE
+QUALQUER NATUREZA. A ferramenta é um AUXÍLIO técnico e NÃO substitui o exame e o
+juízo humano. Os valores que ela reporta são MEDIDOS E ESTIMADOS a partir de
+observação — aproximações úteis, não a configuração original de quem construiu a
+página. Na máxima extensão permitida em lei, o Titular não responde por quaisquer
+danos decorrentes do uso ou da impossibilidade de uso da Obra.
+
+
+8. LEI APLICÁVEL
+-------------------------------------------------------------------------
+Esta licença rege-se pelas leis da República Federativa do Brasil.
+
+
+-------------------------------------------------------------------------
+Referência: os termos desta licença correspondem, em espírito, à licença
+Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional
+(CC BY-NC-ND 4.0) — https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt-br
