@@ -188,3 +188,18 @@ Leia [LICENSE](LICENSE) — os termos correspondem, em espírito, à
 **Sophismart.ai** ([@sophismart.ai](https://instagram.com/sophismart.ai))
 
 Ver [AUTORIA.md](AUTORIA.md).
+
+---
+
+## 🛠️ Créditos de desenvolvimento
+
+Esta ferramenta foi desenvolvida com o auxílio de assistentes de programação por
+inteligência artificial — **Claude** (Anthropic) e **Codex** (OpenAI) —, empregados
+na implementação, na revisão técnica e na documentação, sob direção e
+responsabilidade integral do autor. A titularidade dos direitos permanece
+exclusivamente com Murilo Ferreira / Sophismart.ai, nos termos da [LICENSE](LICENSE).
+
+A skill é executada nesses mesmos ambientes: **Claude Code** e **Codex**.
+
+Claude é marca da Anthropic PBC; Codex e ChatGPT são marcas da OpenAI, Inc. A
+menção constitui crédito técnico e não implica afiliação, patrocínio ou endosso.

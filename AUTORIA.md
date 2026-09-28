@@ -27,6 +27,17 @@ expressa do titular. Solicitações e contato:
 - [@sophismart.ai](https://instagram.com/sophismart.ai)
 - [@agro_muriloferreira](https://instagram.com/agro_muriloferreira)
 
+## Ferramentas de desenvolvimento
+
+O desenvolvimento contou com o auxílio de assistentes de programação por
+inteligência artificial — **Claude** (Anthropic) e **Codex** (OpenAI) — na
+implementação, na revisão técnica e na documentação. O emprego dessas ferramentas
+se deu sob direção e responsabilidade integral do autor, não constitui coautoria
+e não transfere nem divide a titularidade dos direitos sobre a Obra.
+
+Claude é marca da Anthropic PBC; Codex e ChatGPT são marcas da OpenAI, Inc. A
+menção constitui crédito técnico e não implica afiliação, patrocínio ou endosso.
+
 ## Como citar
 > Ferreira, Murilo; Sophismart.ai. *scroll-forensics: forense de mecânica de
 > scroll e animação em páginas web*. 2026. Disponível em:
