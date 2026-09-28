@@ -8,25 +8,22 @@
 
 ---
 
-## 💛 Uma palavra de gratidão
+## Contexto e propósito
 
-Todo mundo que faz web já passou por isso: o cliente manda um link e diz *"quero
-que o meu fique assim"*. E aí vem a parte difícil — não é a vontade que falta, é
-saber **exatamente** o que faz aquela página parecer cara. O que separa o
-acabamento bom do amador quase nunca é segredo: é um número. Um `rootMargin`
-negativo, um fator de parallax de 0.35, uma curva `expo.out` em vez de `ease`.
+Referências visuais chegam ao briefing na forma de um link: *"queremos o mesmo
+padrão deste site"*. O que distingue um acabamento profissional de uma
+aproximação amadora raramente é um segredo técnico — é um conjunto de
+parâmetros mensuráveis: um `rootMargin` negativo, um fator de parallax de 0.35,
+uma curva `expo.out` no lugar de `ease`.
 
-Esta skill nasceu para transformar "parece mais caro" em **parâmetro** — para
-que designers e desenvolvedores possam aprender com o que já existe e construir
-o seu, do zero, com as próprias mãos.
+O **scroll-forensics** converte essa percepção em parâmetro. A ferramenta observa
+a página em execução, mede o comportamento e documenta a mecânica em um laudo
+técnico, acompanhado de um plano de reimplementação independente.
 
-Ela foi feita com uma regra no centro: **estudar não é copiar.** Mecanismo e
-número são conhecimento — se aprendem, se ensinam, se reaproveitam. Código,
-texto, imagem e marca são de quem fez — e ficam com quem fez.
-
-A quem constrói a web com capricho: **obrigado pelo cuidado com cada detalhe.**
-
-— **Murilo Ferreira** ([@agro_muriloferreira](https://instagram.com/agro_muriloferreira)) · **Sophismart.ai** ([@sophismart.ai](https://instagram.com/sophismart.ai))
+O projeto orienta-se por um princípio: a separação entre **método** e **obra**.
+Mecanismo, parâmetro e sequência constituem conhecimento técnico — estudam-se,
+ensinam-se e reaplicam-se legitimamente. Código-fonte, texto, imagem e identidade
+visual pertencem a seus autores e assim permanecem.
 
 ---
 
