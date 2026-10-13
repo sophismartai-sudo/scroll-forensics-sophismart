@@ -74,7 +74,7 @@ Três limitações reais aparecem em browser MCP e mudam o que você pode afirma
 Duas consequências práticas para o caminho A:
 
 - **Sem top-level `await`** em vários desses tools. Como `__SF_amostrar` devolve Promise, use o padrão de duas chamadas: guarde em global na primeira (`__SF_amostrar(...).then(r => window.__SFOUT = r)`), leia `window.__SFOUT` na segunda.
-- **Carregue os scripts por XHR síncrono** em vez de colar o fonte inteiro na chamada: `var x=new XMLHttpRequest(); x.open('GET', url, false); x.send(); eval(x.responseText)`.
+- **Carregue os scripts com uma tag `<script src>`** em vez de colar o fonte inteiro na chamada: `var s=document.createElement('script'); s.src=url; s.onload=()=>window.__SFOK=true; document.head.appendChild(s)` — e confira `window.__SFOK` antes de chamar `__SF_*`. Nunca execute com `eval` um texto baixado.
 
 ### Recuperando os parâmetros do IntersectionObserver sem pré-load
 
